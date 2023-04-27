@@ -7,3 +7,7 @@
 @import "./components/navigation/navigation.css";
 @import "./components/profile/profile.css";
 @import "./components/counter-list/counter-list.css";
+
+.button_new_card {
+  text-align: center;
+}

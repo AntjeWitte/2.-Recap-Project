@@ -13,11 +13,38 @@
       <h1 class="header__title">New Card</h1>
     </header>
     <main>
-      Within form.html create a form with the following fields "Your question"
-      as <textarea /> "Your answer" as <textarea /> "Tag" as
-      <input type="text" />
-      Submit button
+      <form class="card-list">
+        <h2 class="h2" for="question">Your question:</h2>
+        <textarea
+          name="question"
+          id="question"
+          rows="6"
+          cols="50"
+          placeholder="Please write your question"
+        ></textarea>
+
+        <h2 class="h2" for="answer">Your answer:</h2>
+        <textarea
+          name="answer"
+          id="answer"
+          rows="6"
+          cols="50"
+          placeholder="Please write your answer"
+        ></textarea>
+
+        <h2 class="h2" for="tag">Tag:</h2>
+        <input
+          type="text"
+          name="tag"
+          id="tag"
+          placeholder="Please write a tag"
+        />
+        <br />
+        <br />
+        <button type="submit" class="button_new_card">Create new card</button>
+      </form>
     </main>
+
     <nav class="navigation">
       <ul class="navigation__list">
         <li class="navigation__list-item">
